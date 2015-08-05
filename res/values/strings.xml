@@ -61,6 +61,14 @@
         Android.</string>
     <!-- Reason displayed when installation fails because the package specifies it is compatible
         only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="mbx">This app isn\'t
+        compatible with your mbx.</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
+    <string name="install_failed_cpu_abi_incompatible" product="TV">This app isn\'t
+        compatible with your TV.</string>
+    <!-- Reason displayed when installation fails because the package specifies it is compatible
+        only with a CPU that the current tablet doesn't have. [CHAR LIMIT=100] -->
     <string name="install_failed_cpu_abi_incompatible" product="tablet">This app isn\'t
         compatible with your tablet.</string>
     <!-- Reason displayed when installation fails because the package specifies it is compatible
@@ -84,6 +92,10 @@
     <string name="install_failed_verify_timeout">A timeout occurred while trying to verify this
         package. Try to install it again later.</string>
     <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="mbx"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be installed on your mbx.</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="TV"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be installed on your TV.</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
     <string name="install_failed_msg" product="tablet"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be installed on your tablet.</string>
     <!-- Message presented when an application could not be installed on the TV for some reason. [CHAR LIMIT=100] -->
     <string name="install_failed_msg" product="tv"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be installed on your TV.</string>
@@ -91,6 +103,10 @@
     <string name="install_failed_msg" product="default"><xliff:g id="app_name">%1$s</xliff:g> couldn\'t be installed on your phone.</string>
     <string name="launch">Open</string>
     <string name="unknown_apps_dlg_title">Install blocked</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="mbx">For security, your mbx is set to block installation of apps obtained from unknown sources.</string>
+    <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
+    <string name="unknown_apps_dlg_text" product="TV">For security, your TV is set to block installation of apps obtained from unknown sources.</string>
     <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
     <string name="unknown_apps_dlg_text" product="tablet">For security, your tablet is set to block installation of apps obtained from unknown sources.</string>
     <!-- Message presented in a dialog box when a package is requested to be installed, but the "Allow unknown applications" checkbox is not enabled. [CHAR LIMIT=100] -->
