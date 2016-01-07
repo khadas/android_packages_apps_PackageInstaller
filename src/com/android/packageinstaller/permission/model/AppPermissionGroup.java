@@ -27,6 +27,7 @@ import android.content.pm.PermissionInfo;
 import android.os.Build;
 import android.os.UserHandle;
 import android.util.ArrayMap;
+import android.os.Process;
 
 import com.android.packageinstaller.R;
 import com.android.packageinstaller.permission.utils.LocationUtils;
@@ -364,6 +365,15 @@ public final class AppPermissionGroup implements Comparable<AppPermissionGroup> 
                     // resource due to changes in runtime permissions (app ops in this
                     // case). Therefore, we restart them on app op change, so they
                     // can pick up the change.
+
+                    // skip kill system uid.
+                    // Otherwise it will remove system_server process record from
+                    // mProcessNames in ams. This will cause disasters, from then service
+                    // in system_server will start in an isolated process which cound not
+                    // find their classloader and will restart over and over again.
+                    if (uid == Process.SYSTEM_UID) {
+                        return true;
+                    }
                     mActivityManager.killUid(uid, KILL_REASON_APP_OP_CHANGE);
                 }
             }
@@ -456,6 +466,16 @@ public final class AppPermissionGroup implements Comparable<AppPermissionGroup> 
                     // Disabling an app op may put the app in a situation in which it
                     // has a handle to state it shouldn't have, so we have to kill the
                     // app. This matches the revoke runtime permission behavior.
+
+                    // skip kill system uid.
+                    // Otherwise it will remove system_server process record from
+                    // mProcessNames in ams. This will cause disasters, from then service
+                    // in system_server will start in an isolated process which cound not
+                    // find their classloader and will restart over and over again.
+                    if (uid == Process.SYSTEM_UID) {
+                        return true;
+                    }
+
                     mActivityManager.killUid(uid, KILL_REASON_APP_OP_CHANGE);
                 }
             }
