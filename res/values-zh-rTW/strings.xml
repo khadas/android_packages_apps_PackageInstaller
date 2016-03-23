@@ -96,7 +96,7 @@
     <string name="grant_dialog_button_allow" msgid="4616529495342337095">"允許"</string>
     <string name="grant_dialog_button_deny" msgid="2176510645406614340">"拒絕"</string>
     <string name="current_permission_template" msgid="6378304249516652817">"<xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g>/<xliff:g id="PERMISSION_COUNT">%2$s</xliff:g>"</string>
-    <string name="permission_warning_template" msgid="5209102765005869454">"要允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」<xliff:g id="ACTION">%2$s</xliff:g>嗎？"</string>
+    <string name="permission_warning_template" msgid="5209102765005869454">"允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」<xliff:g id="ACTION">%2$s</xliff:g>嗎？"</string>
     <string name="app_permissions_breadcrumb" msgid="3390836200791539264">"應用程式"</string>
     <string name="app_permissions" msgid="3146758905824597178">"應用程式權限"</string>
     <string name="never_ask_again" msgid="3798895821072102967">"不要再詢問我"</string>
@@ -124,4 +124,6 @@
     <string name="screen_overlay_title" msgid="3021729846864038529">"偵測到畫面重疊圖層"</string>
     <string name="screen_overlay_message" msgid="2141944461571677331">"如要變更這項權限設定，您必須先依序前往 [設定] &gt; [應用程式]，關閉裝置畫面重疊圖層"</string>
     <string name="screen_overlay_button" msgid="4344544843349937743">"開啟設定"</string>
+    <string name="wear_not_allowed_dlg_title" msgid="8104666773577525713">"Android Wear"</string>
+    <string name="wear_not_allowed_dlg_text" msgid="1618381127237173068">"Wear 不支援安裝及解除安裝操作。"</string>
 </resources>

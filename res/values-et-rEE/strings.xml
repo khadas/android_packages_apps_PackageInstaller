@@ -90,7 +90,7 @@
     <string name="grant_dialog_button_allow" msgid="4616529495342337095">"Lubamine"</string>
     <string name="grant_dialog_button_deny" msgid="2176510645406614340">"Keelamine"</string>
     <string name="current_permission_template" msgid="6378304249516652817">"<xliff:g id="CURRENT_PERMISSION_INDEX">%1$s</xliff:g>/<xliff:g id="PERMISSION_COUNT">%2$s</xliff:g>-st"</string>
-    <string name="permission_warning_template" msgid="5209102765005869454">"Kas lubada rakendusele <xliff:g id="APP_NAME">%1$s</xliff:g> toiming <xliff:g id="ACTION">%2$s</xliff:g>?"</string>
+    <string name="permission_warning_template" msgid="5209102765005869454">"Kas lubada rakendusel <xliff:g id="APP_NAME">%1$s</xliff:g> <xliff:g id="ACTION">%2$s</xliff:g>?"</string>
     <string name="app_permissions_breadcrumb" msgid="3390836200791539264">"Rakendused"</string>
     <string name="app_permissions" msgid="3146758905824597178">"Rakenduse load"</string>
     <string name="never_ask_again" msgid="3798895821072102967">"Ära enam küsi"</string>
@@ -118,4 +118,6 @@
     <string name="screen_overlay_title" msgid="3021729846864038529">"Tuvastati ekraani ülekate"</string>
     <string name="screen_overlay_message" msgid="2141944461571677331">"Selle loa seade muutmiseks peate esmalt välja lülitama ekraani ülekatte menüüs Seaded &gt; Rakendused"</string>
     <string name="screen_overlay_button" msgid="4344544843349937743">"Ava seaded"</string>
+    <string name="wear_not_allowed_dlg_title" msgid="8104666773577525713">"Android Wear"</string>
+    <string name="wear_not_allowed_dlg_text" msgid="1618381127237173068">"Wear ei toeta installimist/desinstallimist."</string>
 </resources>
