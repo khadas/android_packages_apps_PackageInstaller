@@ -34,14 +34,17 @@
     <string name="install_failed" msgid="6579998651498970899">"应用未安装。"</string>
     <string name="install_failed_blocked" msgid="1606870930588770025">"系统禁止安装该文件包。"</string>
     <string name="install_failed_conflict" msgid="5349055145440204106">"该文件包与具有同一名称的现有文件包存在冲突。"</string>
+    <string name="install_failed_incompatible" product="mbx">"此应用与您的媒体盒不兼容。"</string>
     <string name="install_failed_incompatible" product="tablet" msgid="119054044615117271">"此应用与您的平板电脑不兼容。"</string>
     <string name="install_failed_incompatible" product="tv" msgid="3553367270510072729">"此应用与您的电视不兼容。"</string>
     <string name="install_failed_incompatible" product="default" msgid="6677057915876853610">"此应用与您的手机不兼容。"</string>
     <string name="install_failed_invalid_apk" msgid="1287935707565682604">"该软件包似乎已损坏。"</string>
+    <string name="install_failed_msg" product="mbx">"无法在您的媒体盒上安装“<xliff:g id="APP_NAME">%1$s</xliff:g>”。"</string>
     <string name="install_failed_msg" product="tablet" msgid="8368835262605608787">"无法在您的平板电脑上安装“<xliff:g id="APP_NAME">%1$s</xliff:g>”。"</string>
     <string name="install_failed_msg" product="tv" msgid="3990457938384021566">"无法将<xliff:g id="APP_NAME">%1$s</xliff:g>安装到您的电视上。"</string>
     <string name="install_failed_msg" product="default" msgid="8554909560982962052">"无法在您的手机上安装“<xliff:g id="APP_NAME">%1$s</xliff:g>”。"</string>
     <string name="launch" msgid="4826921505917605463">"打开"</string>
+    <string name="unknown_apps_dlg_text" product="mbx">"出于安全考虑，您的媒体盒已设置为禁止安装来源不明的应用。"</string>
     <string name="unknown_apps_dlg_text" product="tablet" msgid="7504186369474734767">"出于安全考虑，您的平板电脑已设置为禁止安装来源不明的应用。"</string>
     <string name="unknown_apps_dlg_text" product="tv" msgid="7195713985140602351">"出于安全考虑，您的电视已设置为禁止安装来源不明的应用。"</string>
     <string name="unknown_apps_dlg_text" product="default" msgid="133213135679009316">"出于安全考虑，您的手机已设置为禁止安装来源不明的应用。"</string>
